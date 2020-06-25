@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kynefuk/typescripter/issues"
   },
-  "homepage": "https://github.com/kynefuk/typescripter#readme"
+  "homepage": "https://github.com/kynefuk/typescripter#readme",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
 }
