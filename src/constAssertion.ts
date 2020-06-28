@@ -10,3 +10,10 @@ const obj = {
   name: "hoge",
   age: 10
 } as const;
+
+const ob: {
+  [key: string]: number;
+} = {
+  a: 100
+};
+
