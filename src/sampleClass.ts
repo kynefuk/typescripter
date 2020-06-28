@@ -22,4 +22,18 @@ class Android extends Person {
 }
 
 const android = new Android("hoge", 20, "japan")
-console.log(android.hoge())
+//console.log(android.hoge())
+
+class Sample {
+  static isProgrammer = true;
+  constructor(public name: string, private age: number){}
+
+  static hey() {
+    return `hey ${this.isProgrammer}`
+  }
+}
+
+const s = new Sample("hoge", 21)
+console.log(s)
+console.log(Sample.isProgrammer)
+console.log(Sample.hey())
